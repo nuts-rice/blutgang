@@ -7,3 +7,5 @@
 /config.toml
 /.env
 /default.sled
+.local-history
+benches/arc_db_bench.rs
