@@ -25,5 +25,6 @@ jobs:
        with:
     # Github token to use
         gh-token: ${{ secrets.GITHUB_TOKEN }}     
-        rs-roots: ./src
+        rs-roots: |
+          .
       
